@@ -28,7 +28,7 @@ int main(){
     srand(time(0)); // Seed for random number generation
 
     // Read map from file
-    FILE *file = fopen("/Users/adityagupta/Desktop/work/c++/mymap.txt", "r");
+    FILE *file = fopen("mymap.txt", "r");
     if (file == NULL) {
         perror("Error opening the file");
         return 1;
